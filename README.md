@@ -8,33 +8,38 @@ Documentation is on the Wiki tab
 ## 2020.05.21 GLX2 4.1
 ----------------------------------------------------------------------
 
-  Thanks to many code and bugfix contributions from the community, the glx2 script editor
-  is finally reaping the benefits of being open-source (meaning I don't have to do everything)
-  Special thanks to Bernd Niggeman and Bob Sneidar.
-  Note that the Undo mechanics will no longer allow you to undo the script past the last save.
-  Improvements to code folding
-  Errors flagged in red during editing
-  Lots of bug fixes to
-   Preference settings
-   Clairvoyance
-   Colorization
-   Tabbing
-   Undo/Redo
+Thanks to many code and bugfix contributions from the community, the glx2 script editor
+is finally reaping the benefits of being open-source (meaning I don't have to do everything)
+Special thanks to Bernd Niggeman and Bob Sneidar.
+  
+Note that the Undo mechanics will no longer allow you to undo the script past the last save.
+  
+Improvements to code folding
+  
+Errors flagged in red during editing
+  
+Lots of bug fixes to
+  
+	   Preference settings
+	   Clairvoyance
+	   Colorization
+	   Tabbing
+	   Undo/Redo
 
 ----------------------------------------------------------------------
 ## 2020.04.05 GLX2 4.0
 ----------------------------------------------------------------------
 
-  Integration of the status bar with Fourth World's devolution
-  (http://fourthworld.com/products/devolution/index.html)
-  Refactored code folding
-  Status bar colors match LiveCode license version colors
-  Fixed block comment folding inside handlers
-  Refactored code folding yet again for speed
-  Renamed stack for ease of editing in Project Browser
-  Fixed "end try" tab formatting
-  Removed most dependence on stack naming convention
-  Some rework for compatibility with Refactor stack
+	  Integration of the status bar with Fourth World's devolution
+	  (http://fourthworld.com/products/devolution/index.html)
+	  Refactored code folding
+	  Status bar colors match LiveCode license version colors
+	  Fixed block comment folding inside handlers
+	  Refactored code folding yet again for speed
+	  Renamed stack for ease of editing in Project Browser
+	  Fixed "end try" tab formatting
+	  Removed most dependence on stack naming convention
+	  Some rework for compatibility with Refactor stack
 
 ----------------------------------------------------------------------
 ## 2017.07.24 GLX2 3.0.24
