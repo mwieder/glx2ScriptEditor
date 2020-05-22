@@ -2,146 +2,49 @@
 
 ### Release Notes for the GLX2 Script Editor
 
-download site: `https://bitbucket.org/mwieder/glx2/downloads`
+Documentation is on the Wiki tab
 
-* Licensing changed to MIT model
+----------------------------------------------------------------------
+## 2020.05.21 GLX2 4.1
+----------------------------------------------------------------------
 
-## Installing:
+  Thanks to many code and bugfix contributions from the community, the glx2 script editor
+  is finally reaping the benefits of being open-source (meaning I don't have to do everything)
+  Special thanks to Bernd Niggeman and Bob Sneidar.
+  Note that the Undo mechanics will no longer allow you to undo the script past the last save.
+  Improvements to code folding
+  Errors flagged in red during editing
+  Lots of bug fixes to
+   Preference settings
+   Clairvoyance
+   Colorization
+   Tabbing
+   Undo/Redo
 
-For best results, it's a good idea to delete any "GLX2 Code Prefs.txt" preferences file in your Plugins directory. Some custom properties have been deprecated, and they may resurrect themselves if they're in a previously-existing preferences file and cause undefined behavior.
+----------------------------------------------------------------------
+## 2020.04.05 GLX2 4.0
+----------------------------------------------------------------------
 
-NOTE: the glx2Plugins.txt file should be placed in the same user plugins folder as glx2 itself. If you have an older "glx2 Plugins.txt" file you can get rid of it. I renamed the new file to eliminate the embedded space, and the older naming convention will just be ignored. Current external plugin integrations are lcTaskList and PowerDebug.
+  Integration of the status bar with Fourth World's devolution
+  (http://fourthworld.com/products/devolution/index.html)
+  Refactored code folding
+  Status bar colors match LiveCode license version colors
+  Fixed block comment folding inside handlers
+  Refactored code folding yet again for speed
+  Renamed stack for ease of editing in Project Browser
+  Fixed "end try" tab formatting
+  Removed most dependence on stack naming convention
+  Some rework for compatibility with Refactor stack
 
-## Features
-* Clairvoyance (default after 4 typed characters)
-* Clairvoyance knows the difference between commands and functions: it won't suggest values that are inappropriate for the context
+----------------------------------------------------------------------
+## 2017.07.24 GLX2 3.0.24
+----------------------------------------------------------------------
 
-![Clairvoyance1.png](https://bitbucket.org/repo/GXy6K/images/3435897224-Clairvoyance1.png)
-![Clairvoyance2.png](https://bitbucket.org/repo/GXy6K/images/38544633-Clairvoyance2.png)
+Some bugfixes:
 
-* Hyperlinking handlers
-![HandlerLinks.png](https://bitbucket.org/repo/GXy6K/images/3221736600-HandlerLinks.png)
- in italics if in some other script
- plain text if in the same script
- click to go to the handler declaration and create breadcrumbs to allow you to return to the original location.
-* Breadcrumbs
- click to return to that script point
- option-click to remove the breadcrumb
-* Unlimited undos! This is a big deal. I got rid of the old undo mechanism that wasn't really working very well and put a FILO stack array in its place. Fast, efficient, and you can undo all the way back to when you first opened the script editing session. 
-* Warning if you try to undo past the last save
-
-* Split screen viewing has been restored. Shift-click on a tab to open a second screen for viewing. Shift-click it again to close the split pane. Still can only edit the lower pane, but it's a start.
-* A start at git version control integration: new items in the Tools menu. If you have git installed you can enable version control integration from the Tools menu. This will automatically stage text files containing the scripts of edited stacks when you do a save, and create a metadata directory structure to contain them. All other git commands are manual (commit files using the Tools submenus). No explicit diffs yet, but you can launch gitk from the menu.
-
-## IDE Script Editor compatibility
-* control-tab and shift-control tab move among the open script editor tabs.
-* Return key on OSX now compiles script, Enter enters a newline. Return on a compiled script closes that tab.
-
-* Hover tooltip features:
-   constants show their values
-![hoverConstant.png](https://bitbucket.org/repo/GXy6K/images/4247217430-hoverConstant.png)
-* Control+mouseOver the Find button turns it into "Find All", which will bring up a list of the locations of the found phrase anywhere in the stack file scripts (stack, substacks, cards, controls). Clicking on any line in the datagrid will bring that script up in the script editor with the specified line highlighted.
-
-## Keyboard equivalents
-* To see a word in the docs, highlight and press the F1 key.
-* F7 toggles between browse and edit tools
-* The F3 key acts like command-G as a "Find Again" command
-* Alt-F7 key is also Find Again.
-* Control-shift-O outlines the selected control structure
-* Option-return inserts a single divider
-* Option-shift-return inserts a double divider
-
-## Preferences
-![Preferences.png](https://bitbucket.org/repo/GXy6K/images/344025877-Preferences.png)
-
-* Ruled lines in scripts
-![RuledLines.png](https://bitbucket.org/repo/GXy6K/images/104769561-RuledLines.png)
-
-* Line Wrapping
-![LineWrap.png](https://bitbucket.org/repo/GXy6K/images/210236360-LineWrap.png)
-
-* Code folding preference for control structures
-![CodeFolding.png](https://bitbucket.org/repo/GXy6K/images/550699889-CodeFolding.png)
-
-* Colorization
-* Italicize comments
-* Bold Folder Names
-* Capitalize Control Structures
-* Show/Sort Handler List
-* Chalkboard or Alabaster theme
-* Font: typeface, size
-* Indentation depth
-* Complete on return preference
-* Autosave, Autoarchive options
-* Test-Driven Development encouragement
-* Explicit Variables option
-* Restore Last Session on Startup
-
-* Code stubbing added to new commands and functions with optional support to aid in Test-Driven Development.
-* Version Control updated:
- more version control features (Branch, Merge, Checkout, Reset To..., Remove)
- Recreate Object from archived files
-	Click in line number field to toggle ghost breakpoints on and off.
-	Line numbering and ghost breakpoints adjust properly to cut/paste/edit/code addition and deletion.
-     
-## Refactoring from the Script menu
-
-* Refactoring support in the Script menu.
-Currently supported:
- 
- *     creating constants from literal values
- *     change scope (convert among global variables, script-local variables and handler-local variables)
- *     change signature (number of parameters)
- *     extracting code snippet to a handler
- *     rename handler (rename all usages)
- *     rename variable (rename all usages)
- *     move/copy
- *     safe deletion
- *     undo/redo last refactor operation
-   
-## Script formatting from the Script menu
-bracket selected code with:
-
- *    if/end if
- *    if/else/end if
- *    repeat
- *    repeat for
- *    repeat with
- *    repeat until
- *    switch/end switch
- *    try/catch/end try
- *    single quotes
- *    double quotes
- *    lock screen/unlock screen
-  
-* Unit test generation. Click a command declaration, then select from the contextual menu. The tests will be created in a file named "tests.text" in the same directory as the stack file.
-* Documentation generation. Inline javadoc-style - select from the contextual menu.
-
-## Compatibility
-* GLX2 is saved in version 2.7 file format, so it should be compatible back to at least Rev 3.5.
-* Compatibility with Bill Vlahos' lcTaskList plugin. If you have this installed, right-click on a line in the script editor to insert a task comment.
-* Better PowerDebug integration on script errors:
-   error text appears in GLX2 statusbar and as tooltip on line with error
-* GLX2 responds to the LC6 message box "show source" button
-* The Watched Variables right-click plugin now launches PowerDebug's Watched Variables editor stack to allow for conditional breakpoints.
-
-* You can highlight the outline of control structures by selecting (for instance) an if statement and pressing control-shift-O (for outline) to show where its corresponding end if statement is. Or select the end statement to see the beginning of the control structure. This works with if, repeat, switch, and try structures. You can scroll the screen to view long control structures, and finally press control-shift-O again to when you're done.
-![highlighting.png](https://bitbucket.org/repo/GXy6K/images/1200682495-highlighting.png)
-* You can do the same with a right or left parenthesis (select or click just inside the parenthesis) to highlight text to its matching parenthesis. This also works for array keys and JSON objects: clicking to the inside of any "(){}[]" string will highlight its matching delimiter.
-
-## Plugin support
-* Plugin support through contextual menus.
-* Current built-in plugin integrations are lcTaskList and PowerDebug.
-* More plugin support can be added by editing the glx2Plugins.txt file in the Plugins folder.
-
-## Colorization
-
-* Live colorization of lines as you type.
-* Constants are now formatted in green in the code to differentiate them from variables.
-* Quoted strings that aren't properly closed will now highlight the entire line in red.
-![unquote.png](https://bitbucket.org/repo/GXy6K/images/2220038468-unquote.png)
-* Breakpoints show up in red to catch your attention.
-![redbreakpoint.png](https://bitbucket.org/repo/GXy6K/images/3949806245-redbreakpoint.png)
+	OSX problem with toggling GLX2 on and off
+	Ghost breakpoints weren't correctly responding to cut/paste
+	Refactored for speed
 
 ----------------------------------------------------------------------
 ## 2016.10.05 GLX2 3.0.21
