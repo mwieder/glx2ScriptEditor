@@ -1,0 +1,112 @@
+<!-- GLX2 Plugins Notes
+  Usable plugin xml tags:
+
+  <stack> : name of the plugin stack to act on
+  <displayText> : text to display in popup menu
+  <submenu> : multiple choice options from displayText
+  <action> : LC script to execute when chosen
+  <validation> : validation script for selection
+  <acceptableValues> : used to limit choices
+
+  Replaceable arguments in plugin scripts:
+
+  $STACK : the plugin stack (recipient of action)
+  $OBJECT : object whose script is being edited
+  $WORD : the selected word in the script
+  $CHOSEN : selection from the popup menu
+  $SELECTIONLINE : line number of the selection from the popup menu
+  $CLICKLINE : "the clickLine" in the edited script
+  $CLICKLINENUM : the line number being edited
+  $CLICKTEXT : "the clickText" in the edited script
+  $CLICKCHUNK : "the clickChunk" in the edited script
+  $COMMENT : a comment line in the action script
+
+  Actions and submenus can get their contents from executed scripts
+  In this case, encase the LC script in
+  <script><![CDATA[
+    # LiveCode script goes here
+  ]]></script>
+
+		  dispatch "glx2SetBreakpointAtLine" to stack "glx2ScriptEditor" with $CLICKLINENUM
+		  dispatch "glx2ToggleDisplayBreakpointAtLine" to stack "glx2ScriptEditor" with $CLICKLINENUM
+-->
+
+<glx2Plugins>
+<comment>
+</comment>
+  <lcTaskList>
+    <stack>
+      lcTaskList
+    </stack>
+    <displaytext>
+      lcTaskList
+	add $WORD to task list
+    </displayText>
+    <action>
+      <script><![CDATA[
+        dispatch "AddWord" to stack $STACK with $WORD
+      ]]></script>
+    </action>
+    <validation>
+    </validation>
+    <acceptableValues>
+    </acceptableValues>
+  </lcTaskList>
+
+  <PowerDebug>
+    <stack>
+      PowerDebug
+    </stack>
+    <displayText>
+      PowerDebug
+    </displayText>
+    <submenu>
+	toggle breakpoint at this line
+	toggle watch for $WORD
+    </submenu>
+	<action>
+	<script><![CDATA[
+		if word 1 to 3 of "$CHOSEN" is "toggle watch for" then
+          dispatch "SetWatch" to stack $STACK with $WORD,the long id of $OBJECT,"T","*","active"
+        end if
+    ]]></script>
+    </action>
+    <notes>
+    </notes>
+  </PowerDebug>
+  
+  <GhostBreakpoint>
+    <stack>
+      glx2ScriptEditor
+    </stack>
+    <displayText>
+      toggle breakpoint here
+    </displayText>
+    <action>
+	   <script><![CDATA[
+		  dispatch "SetVirtualBreakpointAt" to field "gutter" of stack $STACK with $CLICKLINENUM
+      ]]></script>
+    </action>
+  </GhostBreakpoint>
+
+  <InsertTask>
+    <stack>
+      lcTaskList
+    </stack>
+    <displayText>
+      Insert Task
+    </displayText>
+    <submenu>
+      <script><![CDATA[
+        global gLcTaskListBookmarks
+	get gLcTaskListBookmarks
+	replace space with cr & tab in it
+      ]]></script>
+    </submenu>
+    <action>
+      <script><![CDATA[
+        put "--" && $SELECTION && " " before char 1 of word 1 of $CLICKLINE
+      ]]></script>
+    </action>
+  </InsertTask>
+</glx2Plugins>
