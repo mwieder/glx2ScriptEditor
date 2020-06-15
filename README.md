@@ -5,9 +5,11 @@
 Documentation is on the Wiki tab
 
 ----------------------------------------------------------------------
-## 2020.06.13 GLX2 4.1.4
+## 2020.06.15 GLX2 4.1.4f
 ----------------------------------------------------------------------
 
+Fixed the initial display of disclosure triangles for foldable text
+Trapping of editScript fixed on osx (frontscript order)
 Code folding now applies to handlers
 Code disclosure triangles moved to the gutter
 Split screen improved (shift-click a tab to toggle)
