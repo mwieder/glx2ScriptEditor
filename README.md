@@ -5,6 +5,13 @@
 Documentation is on the Wiki tab
 
 ----------------------------------------------------------------------
+## 2020.06.29 GLX2 4.1.4g
+----------------------------------------------------------------------
+
+Serious refactoring
+Much improved speed for long scripts
+
+----------------------------------------------------------------------
 ## 2020.06.15 GLX2 4.1.4f
 ----------------------------------------------------------------------
 
@@ -20,7 +27,7 @@ Split screen improved (shift-click a tab to toggle)
 
 Thanks to many code and bugfix contributions from the community, the glx2 script editor
 is finally reaping the benefits of being open-source (meaning I don't have to do everything)
-Special thanks to Bernd Niggeman and Bob Sneidar.
+Special thanks to Bernd Niggeman, Bob Sneidar, and Mattias Rebbe.
   
 Note that the Undo mechanics will no longer allow you to undo the script past the last save.
   
