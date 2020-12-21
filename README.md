@@ -5,6 +5,21 @@
 Documentation is on the Wiki tab
 
 ----------------------------------------------------------------------
+## 2020.12.21 GLX2 4.1.6
+----------------------------------------------------------------------
+
+Now escaping all five html entities properly
+Fixed autocompletion of control structures: try, repeat, switch, if
+Fixed nesting of control structures
+Fixed autocompletion line numbering
+Some increase in autocompletion speed
+Setting the script after compilation
+
+----------------------------------------------------------------------
+Previous releases
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
 ## 2020.10.27 GLX2 4.1.4k
 ----------------------------------------------------------------------
 
@@ -141,10 +156,6 @@ known issues:
     Very little testing has been done on any Windows platform. If it works, it works.
     Sometimes spuriously recognizes "the" as a library handler.
     Ghost breakpoints don't recognize code folding yet.
-
-----------------------------------------------------------------------
-Previous releases
-----------------------------------------------------------------------
 
 ## 2016.09.10 GLX2 3.0.19
 
