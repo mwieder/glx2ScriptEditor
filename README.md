@@ -8,6 +8,15 @@ Documentation is on the Wiki tab
 ## 2020.12.21 GLX2 4.1.6
 ----------------------------------------------------------------------
 
+Now that 4.1.6 is done, a few improvements (thanks to Bernd Niggeman):
+better code folding with tab indentation
+Edge case folding fixed
+Much faster formatting with code folding enabled
+
+----------------------------------------------------------------------
+## 2020.12.21 GLX2 4.1.6
+----------------------------------------------------------------------
+
 Now escaping all five html entities properly
 Fixed autocompletion of control structures: try, repeat, switch, if
 Fixed nesting of control structures
