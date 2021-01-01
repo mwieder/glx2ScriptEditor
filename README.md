@@ -4,7 +4,13 @@
 
 Documentation is on the Wiki tab
 
+-----------------------------------------------------------------------
+## 2020.12.31 GLX2 4.1.12
 ----------------------------------------------------------------------
+Scripting error text shows up in status bar
+Fixed: missing line 1 of block comment at start of script
+
+---------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.11
 ----------------------------------------------------------------------
 Fixed: pasting and deleting lines with folded code
