@@ -5,7 +5,13 @@
 Documentation is on the Wiki tab
 
 -----------------------------------------------------------------------
-## 2020.12.31 GLX2 4.1.12
+## 2021.01.14 GLX2 4.1.14
+----------------------------------------------------------------------
+Incorporated Bernd Niggeman's fix to colorizing block comments
+Big speed improvements in initial load when editing
+
+-----------------------------------------------------------------------
+## 2021.01.10 GLX2 4.1.12
 ----------------------------------------------------------------------
 Scripting error text shows up in status bar
 Fixed: missing line 1 of block comment at start of script
