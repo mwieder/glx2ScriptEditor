@@ -5,6 +5,14 @@
 Documentation is on the Wiki tab
 
 -----------------------------------------------------------------------
+## 2021.01.17 GLX2 4.1.16
+----------------------------------------------------------------------
+Delayed update check until after plugin loading
+Fixed:
+block comment colorization
+Folding/unfolding of line continuations
+
+-----------------------------------------------------------------------
 ## 2021.01.15 GLX2 4.1.15
 ----------------------------------------------------------------------
 Bernd fixed code folding
