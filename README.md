@@ -5,19 +5,21 @@
 Documentation is on the Wiki tab
 
 -----------------------------------------------------------------------
-## 2021.02.08 GLX2 4.1.18
+## 2021.03.11 GLX2 4.1.18
 ----------------------------------------------------------------------
 Faster code folding
+Faster formatting
 Fixed:
 adding cr after "next", "exit", "pass" wouldn't add cr
 also wasn't properly identifying when to add completion text
 linkText of handlers outside current script wasn't working
 editing/deleting of folded code sections is disallowed
-metadata is stored in gutter rather than script
 script colorization is controlled by the engine
 script formatting is controlled locally
-Still broken:
-Inserting newline before block comment as first line of script doesn't shift the disclosure triangle.
+folded code and breakpoints are adjusted when adding/deleting lines
+breakpoints are restored with undo actions
+faster adding and deleting of lines in long scripts
+fixed collapse.all and expand.all commands
 
 -----------------------------------------------------------------------
 ## 2021.01.17 GLX2 4.1.16
