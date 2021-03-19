@@ -5,11 +5,13 @@
 Documentation is on the Wiki tab
 
 -----------------------------------------------------------------------
-## 2021.03.17 GLX2 4.1.18
+## 2021.03.18 GLX2 4.1.18
 ----------------------------------------------------------------------
 Faster code folding
 Faster formatting
+Clairvoyance check no longer triggers compilation
 Fixed:
+fixed problem with errorline of zero
 adding cr after "next", "exit", "pass" wouldn't add cr
 also wasn't properly identifying when to add completion text
 linkText of handlers outside current script wasn't working
