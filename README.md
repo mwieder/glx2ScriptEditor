@@ -5,7 +5,7 @@
 Documentation is on the Wiki tab
 
 -----------------------------------------------------------------------
-## 2021.03.18 GLX2 4.1.18
+## 2021.03.21 GLX2 4.1.18
 ----------------------------------------------------------------------
 Faster code folding
 Faster formatting
@@ -22,6 +22,7 @@ folded code and breakpoints are adjusted when adding/deleting lines
 breakpoints are restored with undo actions
 faster adding and deleting of lines in long scripts
 fixed collapse.all and expand.all commands
+handler list updated when adding or deleting script lines
 
 -----------------------------------------------------------------------
 ## 2021.01.17 GLX2 4.1.16
