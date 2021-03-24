@@ -10,7 +10,6 @@ Documentation is on the Wiki tab
 	  Faster code folding
 	  Faster formatting
 	  Clairvoyance check no longer triggers compilation
-Fixed:
 	  fixed problem with errorline of zero
 	  adding cr after "next", "exit", "pass" wouldn't add cr
 	  also wasn't properly identifying when to add completion text
@@ -28,7 +27,6 @@ Fixed:
 ## 2021.01.17 GLX2 4.1.16
 ----------------------------------------------------------------------
 	  Delayed update check until after plugin loading
-Fixed:
 	  block comment colorization
 	  Folding/unfolding of line continuations
 
@@ -52,13 +50,12 @@ Fixed:
 ## 2021.01.10 GLX2 4.1.12
 ----------------------------------------------------------------------
 	  Scripting error text shows up in status bar
-Fixed
-	  missing line 1 of block comment at start of script
+	  fixed missing line 1 of block comment at start of script
 
 ---------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.11
 ----------------------------------------------------------------------
-Fixed: pasting and deleting lines with folded code
+    Fixed: pasting and deleting lines with folded code
 
 ----------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.10
