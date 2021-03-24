@@ -7,52 +7,53 @@ Documentation is on the Wiki tab
 -----------------------------------------------------------------------
 ## 2021.03.22 GLX2 4.1.18
 ----------------------------------------------------------------------
-Faster code folding
-Faster formatting
-Clairvoyance check no longer triggers compilation
+	  Faster code folding
+	  Faster formatting
+	  Clairvoyance check no longer triggers compilation
 Fixed:
-fixed problem with errorline of zero
-adding cr after "next", "exit", "pass" wouldn't add cr
-also wasn't properly identifying when to add completion text
-linkText of handlers outside current script wasn't working
-editing/deleting of folded code sections is disallowed
-script colorization is controlled by the engine
-script formatting is controlled locally
-folded code and breakpoints are adjusted when adding/deleting lines
-breakpoints are restored with undo actions
-faster adding and deleting of lines in long scripts
-fixed collapse.all and expand.all commands
-handler list updated when adding or deleting script lines
+	  fixed problem with errorline of zero
+	  adding cr after "next", "exit", "pass" wouldn't add cr
+	  also wasn't properly identifying when to add completion text
+	  linkText of handlers outside current script wasn't working
+	  editing/deleting of folded code sections is disallowed
+	  script colorization is controlled by the engine
+	  script formatting is controlled locally
+	  folded code and breakpoints are adjusted when adding/deleting lines
+	  breakpoints are restored with undo actions
+	  faster adding and deleting of lines in long scripts
+	  fixed collapse.all and expand.all commands
+	  handler list updated when adding or deleting script lines
 
 -----------------------------------------------------------------------
 ## 2021.01.17 GLX2 4.1.16
 ----------------------------------------------------------------------
-Delayed update check until after plugin loading
+	  Delayed update check until after plugin loading
 Fixed:
-block comment colorization
-Folding/unfolding of line continuations
+	  block comment colorization
+	  Folding/unfolding of line continuations
 
 -----------------------------------------------------------------------
 ## 2021.01.15 GLX2 4.1.15
 ----------------------------------------------------------------------
-Bernd fixed code folding
+	  Bernd fixed code folding
 
 -----------------------------------------------------------------------
 ## 2021.01.14 GLX2 4.1.14
 ----------------------------------------------------------------------
-Incorporated Bernd Niggeman's fix to colorizing block comments
-Big speed improvements in initial load when editing
+	  Incorporated Bernd Niggeman's fix to colorizing block comments
+	  Big speed improvements in initial load when editing
 
 -----------------------------------------------------------------------
 ## 2021.01.10 GLX2 4.1.13
 ----------------------------------------------------------------------
-User preference for update checking on launch
+	  User preference for update checking on launch
 
 -----------------------------------------------------------------------
 ## 2021.01.10 GLX2 4.1.12
 ----------------------------------------------------------------------
-Scripting error text shows up in status bar
-Fixed: missing line 1 of block comment at start of script
+	  Scripting error text shows up in status bar
+Fixed
+	  missing line 1 of block comment at start of script
 
 ---------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.11
@@ -62,34 +63,34 @@ Fixed: pasting and deleting lines with folded code
 ----------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.10
 ----------------------------------------------------------------------
-Fixed code folding visual aspect (too many triangles)
-Tabkey reformatting speed improvement
-No collision when setting a ghost breakpoint on a script error line
+	  Fixed code folding visual aspect (too many triangles)
+	  Tabkey reformatting speed improvement
+	  No collision when setting a ghost breakpoint on a script error line
 
 ----------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.8
 ----------------------------------------------------------------------
-Fixed live colorization
+	  Fixed live colorization
 
 ----------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.6
 ----------------------------------------------------------------------
 
-Now that 4.1.6 is done, a few improvements (thanks to Bernd Niggeman):
-better code folding with tab indentation
-Edge case folding fixed
-Much faster formatting with code folding enabled
+	  Now that 4.1.6 is done, a few improvements (thanks to Bernd Niggeman):
+	  better code folding with tab indentation
+	  Edge case folding fixed
+	  Much faster formatting with code folding enabled
 
 ----------------------------------------------------------------------
 ## 2020.12.21 GLX2 4.1.6
 ----------------------------------------------------------------------
 
-Now escaping all five html entities properly
-Fixed autocompletion of control structures: try, repeat, switch, if
-Fixed nesting of control structures
-Fixed autocompletion line numbering
-Some increase in autocompletion speed
-Setting the script after compilation
+	  Now escaping all five html entities properly
+	  Fixed autocompletion of control structures: try, repeat, switch, if
+	  Fixed nesting of control structures
+	  Fixed autocompletion line numbering
+	  Some increase in autocompletion speed
+	  Setting the script after compilation
 
 ----------------------------------------------------------------------
 Previous releases
@@ -99,37 +100,37 @@ Previous releases
 ## 2020.10.27 GLX2 4.1.4k
 ----------------------------------------------------------------------
 
-Tabbed formatting was messed up on several fronts
+	  Tabbed formatting was messed up on several fronts
 
 ----------------------------------------------------------------------
 ## 2020.10.27 GLX2 4.1.4j
 ----------------------------------------------------------------------
 
-Fixed tab folding of nested structures (off by one error)
-Fixed non-colorized folded structures
+	  Fixed tab folding of nested structures (off by one error)
+	  Fixed non-colorized folded structures
 
 ----------------------------------------------------------------------
 ## 2020.10.26 GLX2 4.1.4h
 ----------------------------------------------------------------------
 
-Fixed folding of nested structures
+	  Fixed folding of nested structures
 
 ----------------------------------------------------------------------
 ## 2020.06.29 GLX2 4.1.4g
 ----------------------------------------------------------------------
 
-Serious refactoring
-Much improved speed for long scripts
+	  Serious refactoring
+	  Much improved speed for long scripts
 
 ----------------------------------------------------------------------
 ## 2020.06.15 GLX2 4.1.4f
 ----------------------------------------------------------------------
 
-Fixed the initial display of disclosure triangles for foldable text
-Trapping of editScript fixed on osx (frontscript order)
-Code folding now applies to handlers
-Code disclosure triangles moved to the gutter
-Split screen improved (shift-click a tab to toggle)
+	  Fixed the initial display of disclosure triangles for foldable text
+	  Trapping of editScript fixed on osx (frontscript order)
+	  Code folding now applies to handlers
+	  Code disclosure triangles moved to the gutter
+	  Split screen improved (shift-click a tab to toggle)
 
 ----------------------------------------------------------------------
 ## 2020.05.21 GLX2 4.1
