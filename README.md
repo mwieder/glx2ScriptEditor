@@ -2,7 +2,7 @@
 
 ### Release Notes for the GLX2 Script Editor
 
-Documentation is on the Wiki tab
+[Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
 ## 2021.04.05 GLX2 4.1.19b
@@ -147,15 +147,15 @@ Previous releases
 Thanks to many code and bugfix contributions from the community, the glx2 script editor
 is finally reaping the benefits of being open-source (meaning I don't have to do everything)
 Special thanks to Bernd Niggeman, Bob Sneidar, and Mattias Rebbe.
-  
+
 Note that the Undo mechanics will no longer allow you to undo the script past the last save.
-  
+
 Improvements to code folding
-  
+
 Errors flagged in red during editing
-  
+
 Lots of bug fixes to
-  
+
 	   Preference settings
 	   Clairvoyance
 	   Colorization
@@ -267,7 +267,7 @@ known issues:
     Very little testing has been done on any Windows platform. If it works, it works.
 
 ## 2016.01.29 GLX2 3.0.19 beta 7
- 
+
 ----------------------------------------------------------------------
 NOTE: THERE ARE STILL PROBLEMS WITH THIS RELEASE!
 ----------------------------------------------------------------------
@@ -294,7 +294,7 @@ bugs fixed:
  Multiple problems solved with handler folders
  Several things that were previously working were fixed until they broke, then refactored until they worked again.
  Repeat until probably no longer broken.
- 
+
 NOTE: the glx2Plugins.txt file should be placed in the same user plugins folder as glx2 itself. If you have an older "glx2 Plugins.txt" file you can get rid of it. I renamed the new file to eliminate the embedded space, and the older naming convention will just be ignored. Current plugin integrations are lcTaskList and PowerDebug.
 
  Also, it's probably best practice to delete any existing "GLX2 Code Prefs.txt" preference file before installing the new version. Some preferences have changed and the discrepancy may cause some confusion.
@@ -322,11 +322,11 @@ bugs fixed
     Fixed the cursor flickering problem
     Broke and fixed clairvoyance
     Frontscript was interfering with text/icons display in the IDE's dock
- 
+
 known issues
 
     clicking outside the plugins popup menu blocks mouseMove messages temporarily
- 
+
 ## 2013.07.05 GLX2 3.0.15
 
 new features
@@ -341,7 +341,7 @@ new features
     Sometimes a script tab has a formatted length of 14 (0+14)
 
 bugs fixed
- 
+
     Block comments now colorize properly
     Settings would open and then immediately close (bad preferences switch)
     Typing "< " would lose text and reposition the insert cursor
