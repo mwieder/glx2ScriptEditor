@@ -9,7 +9,7 @@ Documentation is on the Wiki tab
 ----------------------------------------------------------------------
       Fixed handler contextual menu
       Refactored a bit for better coexistence with revSETH
-      Partial solution to italicized external references
+      Italicized external references are working again
 -----------------------------------------------------------------------
 ## 2021.03.22 GLX2 4.1.18
 ----------------------------------------------------------------------
