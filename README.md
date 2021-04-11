@@ -5,6 +5,13 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.04.11 GLX2 4.1.19c
+----------------------------------------------------------------------
+    Bernd's latest patch for single-line block comments
+    Better control over italicized external handler links
+    Now forcing evaluation of local handlers on editing a new script
+    Speed increase patch to line numbering
+-----------------------------------------------------------------------
 ## 2021.04.05 GLX2 4.1.19b
 ----------------------------------------------------------------------
       Fixed update check urls (github can't update from folder)
