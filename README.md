@@ -11,6 +11,8 @@
     Better control over italicized external handler links
     Now forcing evaluation of local handlers on editing a new script
     Speed increase patch to line numbering
+    Fixed version number
+    Better live colorizing
 -----------------------------------------------------------------------
 ## 2021.04.05 GLX2 4.1.19b
 ----------------------------------------------------------------------
