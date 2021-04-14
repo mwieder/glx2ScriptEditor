@@ -5,6 +5,13 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.04.13 GLX2 4.1.19d
+----------------------------------------------------------------------
+    Better faster code folding checks
+    Fixed: stringified block comment start was causing formatting problems
+    Colorization weren't always being triggered
+    Right-clicking a constant will set a tooltip to its value
+-----------------------------------------------------------------------
 ## 2021.04.11 GLX2 4.1.19c
 ----------------------------------------------------------------------
     Bernd's latest patch for single-line block comments
