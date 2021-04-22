@@ -5,6 +5,11 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.04.21 GLX2 4.1.19f
+----------------------------------------------------------------------
+    Improved code folding/collapsing
+    Rearranged order or colorization and italicization
+-----------------------------------------------------------------------
 ## 2021.04.18 GLX2 4.1.19e
 ----------------------------------------------------------------------
     Bernd's additions for faster folding and external handler italicization
