@@ -11,6 +11,7 @@
     Rearranged order or colorization and italicization
     Only adjust split window when active
     Bernd Niggemann's experimental doResize speed improvements
+    Update check shows available build version and (date)
 -----------------------------------------------------------------------
 ## 2021.04.18 GLX2 4.1.19e
 ----------------------------------------------------------------------
