@@ -7,6 +7,10 @@
 -----------------------------------------------------------------------
 ## 2021.05.06 GLX2 4.1.19h
 ----------------------------------------------------------------------
+   removed experimental doResize speed improvements
+-----------------------------------------------------------------------
+## 2021.05.06 GLX2 4.1.19h
+----------------------------------------------------------------------
     Improved code folding/collapsing
     Rearranged order or colorization and italicization
     Only adjust split window when active
