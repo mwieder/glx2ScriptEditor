@@ -5,11 +5,12 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
-## 2021.05.01 GLX2 4.1.19h
+## 2021.05.06 GLX2 4.1.19h
 ----------------------------------------------------------------------
     Improved code folding/collapsing
     Rearranged order or colorization and italicization
     Only adjust split window when active
+    Bernd Niggemann's experimental doResize speed improvements
 -----------------------------------------------------------------------
 ## 2021.04.18 GLX2 4.1.19e
 ----------------------------------------------------------------------
