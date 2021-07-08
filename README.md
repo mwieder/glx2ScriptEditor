@@ -8,7 +8,7 @@
 ## 2021.07.07 GLX2 4.2.0
 -----------------------------------------------------------------------
    Time for a major version release.
-   Bernd Niggeman has done some amazing work re code folding
+   Bernd Niggemann has done some amazing work re code folding
    tweaking more speed out of routines
    and cleaning up the visual interface
 -----------------------------------------------------------------------
