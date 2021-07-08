@@ -5,6 +5,13 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.07.07 GLX2 4.2.0
+-----------------------------------------------------------------------
+   Time for a major version release.
+   Bernd Niggeman has done some amazing work re code folding
+   tweaking more speed out of routines
+   and cleaning up the visual interface
+-----------------------------------------------------------------------
 ## 2021.05.06 GLX2 4.1.19k
 -----------------------------------------------------------------------
    improved gutter clicking speed and effect
