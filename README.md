@@ -5,7 +5,7 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
-## 2021.07.09 GLX2 4.2.0
+## 2021.07.10 GLX2 4.2.0
 -----------------------------------------------------------------------
    Revived the preference options for italic and/or bold comments
    Time for a major version release.
