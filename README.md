@@ -5,22 +5,26 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.09.22 GLX2 4.2.1 (equinox)
+-----------------------------------------------------------------------
+    Fixed (again) saving font information
+-----------------------------------------------------------------------
 ## 2021.07.10 GLX2 4.2.0
 -----------------------------------------------------------------------
-   Revived the preference options for italic and/or bold comments
-   Time for a major version release.
-   Bernd Niggemann has done some amazing work re code folding
-   tweaking more speed out of routines
-   and cleaning up the visual interface
+    Revived the preference options for italic and/or bold comments
+    Time for a major version release.
+    Bernd Niggemann has done some amazing work re code folding
+    tweaking more speed out of routines
+    and cleaning up the visual interface
 -----------------------------------------------------------------------
 ## 2021.05.06 GLX2 4.1.19k
 -----------------------------------------------------------------------
-   improved gutter clicking speed and effect
-   fixed split-screen artifacts
+    improved gutter clicking speed and effect
+    fixed split-screen artifacts
 -----------------------------------------------------------------------
 ## 2021.05.06 GLX2 4.1.19j
 -----------------------------------------------------------------------
-   removed experimental doResize speed improvements
+    removed experimental doResize speed improvements
 -----------------------------------------------------------------------
 ## 2021.05.06 GLX2 4.1.19h
 -----------------------------------------------------------------------
@@ -144,10 +148,6 @@
 	  Fixed autocompletion line numbering
 	  Some increase in autocompletion speed
 	  Setting the script after compilation
-
-----------------------------------------------------------------------
-Previous releases
-----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
 ## 2020.10.27 GLX2 4.1.4k
