@@ -5,6 +5,10 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.11.05 GLX2 4.2.3
+-----------------------------------------------------------------------
+    Find/Find Again now works like the IDE script editor
+-----------------------------------------------------------------------
 ## 2021.10.21 GLX2 4.2.2
 -----------------------------------------------------------------------
     Fixed capitalization of control structures
