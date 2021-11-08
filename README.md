@@ -8,6 +8,8 @@
 ## 2021.11.05 GLX2 4.2.3
 -----------------------------------------------------------------------
     Find/Find Again now works like the IDE script editor
+    Restored external handler italicization
+    Added the option of custom colorization
 -----------------------------------------------------------------------
 ## 2021.10.21 GLX2 4.2.2
 -----------------------------------------------------------------------
