@@ -9,7 +9,9 @@
 -----------------------------------------------------------------------
     Find/Find Again now works like the IDE script editor
     Restored external handler italicization
-    Added the option of custom colorization
+    Added (and fixed again) the option of custom colorization
+    Bernd fixed collapseAll and misquoted literals
+    Chalkboard and Alabaster backgrounds are now configurable
 -----------------------------------------------------------------------
 ## 2021.10.21 GLX2 4.2.2
 -----------------------------------------------------------------------
