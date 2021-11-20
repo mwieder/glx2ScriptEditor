@@ -5,13 +5,16 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
-## 2021.11.15 GLX2 4.2.3
+## 2021.11.19 GLX2 4.2.3
 -----------------------------------------------------------------------
     Find/Find Again now works like the IDE script editor
     Restored external handler italicization
     Added (and fixed again) the option of custom colorization
     Bernd fixed collapseAll and misquoted literals
-    Chalkboard and Alabaster backgrounds are now configurable and saved as preferences
+    Chalkboard and Alabaster backgrounds are now configurable 
+    Custom colorization saved to preferences file
+    Fixed OSX toolbar|menubar conflict
+    Added menu option to upper|lower case control structures
 -----------------------------------------------------------------------
 ## 2021.10.21 GLX2 4.2.2
 -----------------------------------------------------------------------
