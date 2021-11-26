@@ -5,7 +5,7 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
-## 2021.11.20 GLX2 4.2.3
+## 2021.11.24 GLX2 4.2.3
 -----------------------------------------------------------------------
     Find/Find Again now works like the IDE script editor
     Restored external handler italicization
@@ -15,6 +15,7 @@
     Custom colorization saved to preferences file
     Fixed OSX toolbar|menubar conflict with 4wdevolution
     Added menu option to upper|lower case control structures
+    Custom colorization switch added as suboption of Colorization
 -----------------------------------------------------------------------
 ## 2021.10.21 GLX2 4.2.2
 -----------------------------------------------------------------------
