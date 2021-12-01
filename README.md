@@ -5,6 +5,10 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.11.30 GLX2 4.2.4
+-----------------------------------------------------------------------
+    Custom colorization wasn't always switching properly
+-----------------------------------------------------------------------
 ## 2021.11.24 GLX2 4.2.3
 -----------------------------------------------------------------------
     Find/Find Again now works like the IDE script editor
