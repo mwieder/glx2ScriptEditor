@@ -5,6 +5,10 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2021.12.31 GLX2 4.2.5
+    Integrates bug reporting without needing PowerDebug
+-----------------------------------------------------------------------
+ -----------------------------------------------------------------------
 ## 2021.11.30 GLX2 4.2.4
 -----------------------------------------------------------------------
     Custom colorization wasn't always switching properly
