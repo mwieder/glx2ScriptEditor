@@ -5,10 +5,15 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2022.01.10 GLX2 4.2.6
+    Execution error messages now show up in the status bar
+    Implemented a "show outline on hover over gutter" feature
+    This can be toggled on/off via the preferences panel
+    Fixed the outline scrolling off the script panel
+-----------------------------------------------------------------------
 ## 2021.12.31 GLX2 4.2.5
     Integrates bug reporting without needing PowerDebug
 -----------------------------------------------------------------------
- -----------------------------------------------------------------------
 ## 2021.11.30 GLX2 4.2.4
 -----------------------------------------------------------------------
     Custom colorization wasn't always switching properly
