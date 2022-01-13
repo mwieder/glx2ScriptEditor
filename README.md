@@ -5,10 +5,10 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
-## 2022.01.12 GLX2 4.2.7
+## 2022.01.13 GLX2 4.2.7
     Fixed continuation character colorization
     Fixed conditional and backslash continuation char formatting
-    Added "case" outlining
+    Added "case" outlining for just executable code
     Structure detection code cleanup
     Restored bracket structure outlining
 -----------------------------------------------------------------------
