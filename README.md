@@ -6,6 +6,10 @@
 
 -----------------------------------------------------------------------
 ## 2022.01.13 GLX2 4.2.7
+    Status bar is palette instead of modeless, so not in taskbar
+    More robust version checking
+-----------------------------------------------------------------------
+## 2022.01.13 GLX2 4.2.7
     Fixed continuation character colorization
     Fixed conditional and backslash continuation char formatting
     Added "case" outlining for just executable code
