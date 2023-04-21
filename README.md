@@ -5,6 +5,10 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2023.04.21 GLX2 4.3.3
+----------------------------------------------------------------------
+	Fixed: can't set a tooltip to a single line in a field.
+-----------------------------------------------------------------------
 ## 2023.04.20 GLX2 4.3.2
 ----------------------------------------------------------------------
 	Haven't looked at the code for some time. With that in mind...
