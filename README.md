@@ -5,6 +5,20 @@
 [Documentation is on the Wiki tab](https://github.com/mwieder/glx2ScriptEditor/wiki)
 
 -----------------------------------------------------------------------
+## 2023.04.20 GLX2 4.3.2
+----------------------------------------------------------------------
+	Haven't looked at the code for some time. With that in mind...
+	The structure on the revErrorDisplay stack has changed in later LC builds.
+	In view of that:
+	* revSEGoExecutionPoint needed updating for LC9 and beyond
+	* there are no more breadcrumbs
+	* instead, load the Refactor plugin stack from Sample stacks.
+	To navigate:
+	* Right-click on a handler to bring up the contextual menu.
+	* Click Go To Definition
+	* Click Go Back to return to the caller location.
+
+----------------------------------------------------------------------
 ## 2022.01.13 GLX2 4.2.7
     Status bar is palette instead of modeless, so not in taskbar
     More robust version checking
